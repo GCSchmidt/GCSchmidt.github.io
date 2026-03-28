@@ -25,6 +25,7 @@
   --text-primary: var(--color-gray-900);
   --text-secondary: var(--color-gray-600);
   --text-tertiary: var(--color-gray-500);
+  --text-link: var(--color-primary);
   --border-color: var(--color-gray-200);
 
   --spacing-xs: 0.25rem;
@@ -474,6 +475,14 @@ button {
   flex-direction: column;
   gap: var(--spacing-md);
   align-items: center;
+}
+
+.text__link {
+  color: var(--text-link);
+}
+
+.text__link:hover {
+color: var(--text-primary);
 }
 
 .contact-link {
